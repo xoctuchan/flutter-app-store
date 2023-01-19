@@ -45,6 +45,7 @@ class CustomInputField extends StatelessWidget {
         hintText: hintText,
         labelText: labelText,
         helperText: helperText,
+        contentPadding: const EdgeInsets.symmetric(vertical: 2),
         //counterText: '3 caracteres'
         prefixIcon: Icon(Icons.search),
         suffixIcon: suffixIcon== null ? null : Icon (suffixIcon),
